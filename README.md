@@ -13,14 +13,22 @@ PLEASE NOTE THAT THIS PROJECT WAS MADE ONLY FOR EDUCATIONAL PURPOSES;
         #. Recommended IDE: Visual Studio Code (Stable Version), Visual Studio or Notepad++.
 
 [1] Configurating your browser and your browser Driver*
+    
     Line 17: >>> ndriver = webdriver.Chrome('C:/Users/ucdhs/Downloads/chromedriver_win32/chromedriver.exe')
+    
     0. You should replace 'webdriver.Chrome() [module, function]' to your respectively browser, and the driver.
+        
         #. If you are using chrome, you just need to replace 'ucdhs' to your Computer's username.
+        
         #. Please note that this repository comes with a folder called 'chromedriver_win32', please replace that to your Downloads section.
             This folder contains the Chrome Browser Driver for version 101.
+        
         #. If you are using any other Chrome version rather than 101, you should visit https://chromedriver.chromium.org/downloads and select your Chrome version.
+    
     1. If you aren't using chrome as your main browser, you should! install it's respectively driver, otherwise it will return an error at your console]
+        
         #. Opera: https://github.com/operasoftware/operachromiumdriver/releases
+        
         #. Firefox: https://github.com/mozilla/geckodriver/releases 
 
 [2] Configurating your keywords
